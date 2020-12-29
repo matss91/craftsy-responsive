@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home li{
+    list-style: none;
+    display:inline;
+    font-weight:bold ;
+}
+.home a{
+
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    
+    }
+    body{
+
+        background-image:url("../img/bg-2.png") ;
+        
+        }
+.home{
+    max-width: 1140px;
+    width:100%;
+    margin-top:150px;
+    
+    
+    }
+
+/*header*/
+.home header{
+background-color:orangered;
+width:100%;
+max-width:1140px ;
+padding: 15px;
+overflow:hidden ;
+position:fixed;
+z-index: 1;
+top:0px;
+
+}
+.home header img{
+    float:left;
+    
+    }
+    .home header ul.lista1{
+        float:left;
+        padding: 10px;
+        display:none;
+    }
+    .home header ul.lista2{
+        float: right;
+        padding: 10px;
+    }
+    .home header ul.listacelu{
+        
+        padding: 10px;
+        display:inline-block;
+        text-align:center;
+    }
+    .home header ul.listacelu a:hover{
+        
+       color:rgb(83,20,1);
+    }
+    .home header  li{
+    
+        padding: 10px;
+    }
+
+    /*finalizaheader*/
+
+/*main*/
+.home main{
+    float:left;
+    width: 100%;
+    background-color: white;
+    margin-bottom:10px;
+    overflow: hidden;
+    
+    
+  
+}
+/*secciones productos*/
+.home main section{
+
+    width: 100%;
+    margin:10px;
+    float:left;
+    position:relative;
+    }
+    .home main section img.icon{
+        width: 60px;
+        position:absolute;
+        right:20px;
+    
+
+    }
+    .home main section img.icon2{
+        width: 60px;
+        position:absolute;
+        right:420px;
+    
+
+    }
+    .home main section img{
+
+        width: 100%;
+    }
+
+    .home main section h2{
+        margin:20 px 0;
+        
+        }
+        
+        .home main section p{
+
+            margin-bottom:15px ;
+        }
+        .home main section button{
+            background-color:orangered;
+            border:orangered;
+            border-radius:5px ;
+            padding: 10px;
+        }
+        .home main section button a{
+
+            font-weight: bold;
+            padding: 10px;
+            display:inline-block;
+        }
+        /*seccion lateral*/
+      
+      /*titulos*/
+        .home aside{
+           
+            width: 80%;
+            
+              margin-top:10px;
+        }
+
+        .home aside section h2{
+
+            text-transform:capitalize;
+            background-color:white ;
+            }
+
+/*artiulos*/
+.home aside section{
+    margin-bottom: 30px;
+    
+    
+    }
+    
+
+
+.home aside section article{
+
+    background-color: white;
+    border:1px solid skyblue;
+    padding: 10px;
+    position:relative;
+}
+.home aside section article img.iconp{
+position: absolute;
+width: 50px;
+right: 5px;
+top:0px;
+}
+
+.home aside section article a{
+    color:black;
+    text-transform: none;
+    width: 185px;
+    float:right;
+    padding: 20px 10px;
+    }
+/*publicidad*/
+.home aside section div#publicidad{
+    background-color:white ;
+    border: 1px solid skyblue;
+    margin-top: 10px;
+    }
+    .home aside section div#publicidad img{
+
+        width: 100%;
+            padding: 10px;
+        }
+
+
+
+
+
+
+
+
+@media(min-width:426px)
+
+
+   
+    
+
+        
+
+       
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+

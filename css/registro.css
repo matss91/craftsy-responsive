@@ -1,0 +1,121 @@
+body{
+
+    background-color: rgb(174, 236, 255);
+}
+main{
+    text-align: center;
+}
+
+
+
+main label#a {
+margin-right:260px;
+
+}
+
+
+header{
+    background-color:orangered;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    overflow:hidden ;
+
+    
+    }
+
+  .lista1{
+       display:inline;
+        float: left;
+     list-style: none;
+     margin-left:60px;
+ margin-top:-30px;
+    }
+
+
+    .lista2{
+        display:inline;
+        float: right;
+        list-style: none;
+        margin-top:-30px;
+    }
+
+    ul.lista1 li{
+       display: inline;
+   margin-left: 20px;
+       
+    }
+
+    ul.lista2 li{
+        display: inline;
+        margin-left: 20px;
+     }
+    
+    
+  
+
+     main a{
+         margin-left:-100px;
+         font-size:20px ;
+         color:black;
+     }
+    
+     main select{
+
+        margin-left:-225px ;
+     }
+     h2{
+        margin-left:-110px ;
+     }
+
+
+    #comentario{
+
+        width:260px ;
+        height:60px ;
+        margin-left:-100px;
+    }
+
+   
+        .b{
+
+margin-left:-120px;
+
+        }
+
+        .a{
+
+            margin-left:-280px;
+
+
+        }
+
+        .c{
+margin-left:10px;
+        }
+
+     .botones1{
+            width: 120px;
+            height:30px ;
+            border-radius:5px ;
+          
+            color:white;
+            background-color: blue;
+            margin-left: -130px;
+        }
+        .botones2{
+            width: 120px;
+            height:30px ;
+            border-radius:5px ;
+          
+            color:white;
+            background-color: blue;
+            
+        }
+
+        .a{
+            margin-left:-220px;
+        }
+        h1{
+            margin-left:-80px;
+        }
