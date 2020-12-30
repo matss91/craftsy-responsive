@@ -193,13 +193,41 @@ top:0px;
 
 
 
+/*tablet*/
+@media(min-width:426px){
+.home{
+   margin-top:160px;
+}
+.home header ul.lista1{
+    display:inline;
+}
+.home header ul.listacelu{
+    display:none;
+}
+.home main section{
+   max-width:44%;
+}
+   .home aside{
+       width:50%;
+    }
+} 
+/*escritorio*/
+@media(min-width:769px){
+.home main{
+width:65%;
 
-@media(min-width:426px)
+}
+.home main section{
+width:50%;
 
+}
+.home aside{
+width:30%;
+float:left;
 
-   
-    
+}
 
+}
         
 
        
